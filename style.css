@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: hsl(180, 95%, 50%);
+}
+.navbar-brand img{
+    background-color: #ece3e3;
+    width: 500.11px;
+    height: 300.27px;
+}c:\Users\91738\Desktop\pngfre.com\nike-logo-6-150x150.png
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 80px;
+}
+
+h5{
+    color: #363958;
+}
+
+.nike{
+    color: #000000;
+}
+
+.infinity{
+    color: #3cf81f;
+}
+
+.btn{
+    background: linear-gradient(180deg, #08d2ff 0%, #10a6e6 100%);
+}
+
+.card img{
+    background-color: #ef0e0e;
+    border-radius: 10px;
+}
+.price{
+    color: #000000;
+}
+
+.title{
+    color: #0616c1;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.feature{
+    border-radius: 20px;
+}
+
+
+@media only screen and (max-width: 688px){
+    h1{
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .title{
+        font-size: 36px;
+    }
+
+    .navbar-brand img{
+        width: 192.75px;
+        height: 26px;
+    }
+}
